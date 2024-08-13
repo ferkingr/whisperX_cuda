@@ -5,14 +5,14 @@ import pkg_resources
 from setuptools import find_packages, setup
 
 setup(
-    name="whisperx",
-    py_modules=["whisperx"],
+    name="whisperx_cuda",
+    py_modules=["whisperx_cuda"],
     version="3.1.1",
     description="Time-Accurate Automatic Speech Recognition using Whisper.",
     readme="README.md",
     python_requires=">=3.8",
     author="Max Bain",
-    url="https://github.com/m-bain/whisperx",
+    url="https://github.com/ferkingr/whisperX_cuda",
     license="MIT",
     packages=find_packages(exclude=["tests*"]),
     install_requires=[
